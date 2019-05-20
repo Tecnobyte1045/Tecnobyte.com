@@ -1,0 +1,40 @@
+*{font-family: Ubuntu;margin:0;padding:0;box-sizing:border-box;font-size:0;}
+body{text-align: center; }
+#mensaje{margin-bottom: 20px;width: 350px; height: 60px;}
+#logo{width: 200px; height:100px;}
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:14px;
+      }
+            
+nav li{
+      display:inline-block;
+      width:150px;
+      height:30px;
+      padding:5px 10px;
+      background-color:#000;
+      border:1px solid #000;
+      text-align:center;
+      color:#fff;
+      position:relative;
+}
+            
+nav li:hover{
+      background-color:#fff;
+      color:#000;
+      }
+            
+nav li>ul{
+      display:none;
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+}
+#titulo{font-family: Verdana, Arial, Helvetica, sans-serif; font-size:25px;color:black; margin-top: 100px; text-align:center; text-decoration: underline; }
+#texto3{font-family: Verdana, Arial, Helvetica, sans-serif; font-size:20px;color:black; margin-top: 50px; text-align:center; padding-right: 600px; padding-left: 600px;}
+.foto{width: 130px;height: 130px; padding-top: 30px;margin: 10px;}
